@@ -11,7 +11,7 @@ pipeline {
     stage ('Test') {
       steps {
         sh './output'
-        echo "Hey, I'm TEST'
+        echo "Hey, I'm TEST"
       }
     }
     stage ('Deploy') {
